@@ -1,0 +1,37 @@
+[
+    {
+        "Accounts": [
+            {
+                "Email": "ahmed.mohammed13990@gmail.com",
+                "ID": 535535,
+                "Password": "01127980543"
+            },
+            {
+                "Email": "2",
+                "ID": 887601,
+                "Password": "2"
+            },
+            {
+                "Email": "Mohanad_Mohammed@gmail.com",
+                "ID": 571063,
+                "Password": "9999999999"
+            }
+        ],
+        "Type": "User"
+    },
+    {
+        "Accounts": [
+            {
+                "Email": "ahmed.mohammed13990@gmail.com",
+                "ID": 536828,
+                "Password": "01127980543"
+            },
+            {
+                "Email": "1",
+                "ID": 536828,
+                "Password": "1"
+            }
+        ],
+        "Type": "Admin"
+    }
+]
