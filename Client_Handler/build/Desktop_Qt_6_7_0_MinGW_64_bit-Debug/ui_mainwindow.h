@@ -36,12 +36,12 @@ public:
     QGroupBox *Sign_In_GB;
     QLineEdit *Login_LE;
     QLabel *label;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout_2;
     QLabel *PW_Label;
     QLineEdit *PW_LE;
     QPushButton *Sign_In_PB;
-    QWidget *widget1;
+    QWidget *layoutWidget1;
     QHBoxLayout *horizontalLayout;
     QLabel *Username_Label;
     QLineEdit *Username_LE;
@@ -70,25 +70,25 @@ public:
 "color: rgb(0, 0, 0);"));
         Login_LE = new QLineEdit(Sign_In_GB);
         Login_LE->setObjectName("Login_LE");
-        Login_LE->setGeometry(QRect(120, 180, 771, 41));
+        Login_LE->setGeometry(QRect(120, 150, 771, 41));
         Login_LE->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
 "color: rgb(255, 0, 0);\n"
 "font: 900 12pt \"Segoe UI\";"));
         label = new QLabel(Sign_In_GB);
         label->setObjectName("label");
         label->setGeometry(QRect(260, -11, 421, 41));
-        widget = new QWidget(Sign_In_GB);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(0, 120, 891, 41));
-        horizontalLayout_2 = new QHBoxLayout(widget);
+        layoutWidget = new QWidget(Sign_In_GB);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(0, 100, 891, 41));
+        horizontalLayout_2 = new QHBoxLayout(layoutWidget);
         horizontalLayout_2->setObjectName("horizontalLayout_2");
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
-        PW_Label = new QLabel(widget);
+        PW_Label = new QLabel(layoutWidget);
         PW_Label->setObjectName("PW_Label");
 
         horizontalLayout_2->addWidget(PW_Label);
 
-        PW_LE = new QLineEdit(widget);
+        PW_LE = new QLineEdit(layoutWidget);
         PW_LE->setObjectName("PW_LE");
         PW_LE->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
 
@@ -96,20 +96,20 @@ public:
 
         Sign_In_PB = new QPushButton(Sign_In_GB);
         Sign_In_PB->setObjectName("Sign_In_PB");
-        Sign_In_PB->setGeometry(QRect(120, 240, 771, 50));
+        Sign_In_PB->setGeometry(QRect(120, 200, 771, 50));
         Sign_In_PB->setStyleSheet(QString::fromUtf8("background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));"));
-        widget1 = new QWidget(Sign_In_GB);
-        widget1->setObjectName("widget1");
-        widget1->setGeometry(QRect(0, 50, 891, 41));
-        horizontalLayout = new QHBoxLayout(widget1);
+        layoutWidget1 = new QWidget(Sign_In_GB);
+        layoutWidget1->setObjectName("layoutWidget1");
+        layoutWidget1->setGeometry(QRect(0, 50, 891, 41));
+        horizontalLayout = new QHBoxLayout(layoutWidget1);
         horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        Username_Label = new QLabel(widget1);
+        Username_Label = new QLabel(layoutWidget1);
         Username_Label->setObjectName("Username_Label");
 
         horizontalLayout->addWidget(Username_Label);
 
-        Username_LE = new QLineEdit(widget1);
+        Username_LE = new QLineEdit(layoutWidget1);
         Username_LE->setObjectName("Username_LE");
         Username_LE->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
 
