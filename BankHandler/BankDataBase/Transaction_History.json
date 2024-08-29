@@ -3,6 +3,9 @@
         "Account Number": 535535,
         "Transaction History": [
             {
+                "2024, July , Tuesday, 07:02:12 PM": "Receive Funds of amount 5000$from the Account with number 813243"
+            },
+            {
                 "2024, July , Saturday, 10:52:46 PM": "Receive Funds of amount 50000$from the Account with number 887601"
             }
         ]
@@ -10,6 +13,9 @@
     {
         "Account Number": 887601,
         "Transaction History": [
+            {
+                "2024, August , Thursday, 12:37:23 PM": "Add Funds with amount of 100000$"
+            },
             {
                 "2024, July , Sunday, 05:01:51 PM": "Transfer Funds of amount 2$to the Account with number 571063"
             },
@@ -243,6 +249,44 @@
             {
                 "2024, July , Sunday, 04:34:08 PM": "Receive Funds of amount 99.5$from the Account with number 887601"
             }
+        ]
+    },
+    {
+        "Account Number": 813243,
+        "Transaction History": [
+            {
+                "2024, July , Tuesday, 07:02:12 PM": "Transfer Funds of amount 5000$to the Account with number 535535"
+            }
+        ]
+    },
+    {
+        "Account Number": 576416,
+        "Transaction History": [
+        ]
+    },
+    {
+        "Account Number": 473688,
+        "Transaction History": [
+        ]
+    },
+    {
+        "Account Number": 827517,
+        "Transaction History": [
+        ]
+    },
+    {
+        "Account Number": 623543,
+        "Transaction History": [
+        ]
+    },
+    {
+        "Account Number": 264890,
+        "Transaction History": [
+        ]
+    },
+    {
+        "Account Number": 153807,
+        "Transaction History": [
         ]
     }
 ]

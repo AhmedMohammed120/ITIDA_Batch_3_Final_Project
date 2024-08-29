@@ -50,6 +50,7 @@ void Admin_Window::on_SignOut_PB_clicked()
 
     this->hide();
     Main_Window_Ptr->Clear_PW();
+
     Main_Window_Ptr->show();
 }
 

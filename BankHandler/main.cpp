@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
     Login_Database Login_Database_File("..\\..\\BankDatabase\\","Login_Database.json");
+    qDebug()<<"Bank System - Server Application"<<Qt::endl;
 
     Server MyServer;
     MyServer.StartServer();

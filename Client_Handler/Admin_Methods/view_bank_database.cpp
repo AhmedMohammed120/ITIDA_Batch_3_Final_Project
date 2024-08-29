@@ -32,10 +32,10 @@ void View_Bank_Database::Write_To_LW(QString Data)
 {
     ui->Bank_Database_LW->clear();
     QStringList List = Data.split(';');
-    for(unsigned int Counter = 0;Counter<List.size()-1;Counter++)
+    for(qint32  Counter = 0;Counter<List.size()-1;Counter++)
     {
         QStringList List2 = List[Counter].split(',');
-        ui->Bank_Database_LW->addItem("Account Number: " + List2[0]);
+        ui->Bank_Database_LW->addItem(QString::number(Counter+1) + ". Account Number: " + List2[0]);
         ui->Bank_Database_LW->addItem("User Name: " + List2[1]);
         ui->Bank_Database_LW->addItem("User Age: " + List2[2]);
         ui->Bank_Database_LW->addItem("Account Type: " + List2[3]);

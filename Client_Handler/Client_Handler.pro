@@ -62,3 +62,6 @@ FORMS += \
     admin_window.ui \
     mainwindow.ui \
     user_window.ui
+
+RESOURCES += \
+    Resources.qrc

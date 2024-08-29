@@ -11,29 +11,124 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Admin - View Bank Database</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/Ahmed Mohammed/Desktop/Pictures/App_Icon.png</normaloff>C:/Users/Ahmed Mohammed/Desktop/Pictures/App_Icon.png</iconset>
+  </property>
+  <widget class="QLabel" name="Sign_In_Label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>1150</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(91, 91, 91);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/Ahmed Mohammed/Desktop/Pictures/ezgif-6-82dce513e7.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
   <widget class="QListWidget" name="Bank_Database_LW">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>70</y>
+     <x>100</x>
+     <y>100</y>
      <width>991</width>
-     <height>551</height>
+     <height>571</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 700 20pt &quot;Segoe Script&quot;;
+color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+
+border-radius: 10px; /* This should be half of the width/height */
+border: 2px solid black; /* Optional: adds a visible border around the button */</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Back">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>688</y>
+     <x>350</x>
+     <y>710</y>
      <width>401</width>
      <height>71</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 700 20pt &quot;Segoe Script&quot;;
+color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+
+border-radius: 25px; /* This should be half of the width/height */
+border: 2px solid black; /* Optional: adds a visible border around the button */</string>
+   </property>
    <property name="text">
     <string>Back to Admin Page</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>531</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 3000 24pt &quot;Segoe Script&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Bank Accounts Database </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Sign_In_Label_2">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>240</y>
+     <width>1150</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(91, 91, 91);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/Ahmed Mohammed/Desktop/Pictures/ezgif-6-82dce513e7.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

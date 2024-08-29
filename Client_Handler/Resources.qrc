@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>812.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/0x0.webp</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/1.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/124124.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/2.jpg</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/812.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/C++_7.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Client 3.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Client_1 - Copy.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Client_1.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Client_2.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Client_Server_1.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Coretech.jpg</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/dark-background-b59iy2towqy5yrgb.jpg</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Database_1.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Database_2.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Database_3.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Database_4.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Eme.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/ezgif-6-82dce513e7.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/images.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/ITIDA.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/MCIT-Seshat_Logo@2x.996f29ab19107ab50079ee5d850053a718a8df3a.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Network.PNG</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Screenshot 2024-08-19 002824.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Screenshot 2024-08-25 143721.png</file>
+        <file>C:/Users/Ahmed Mohammed/Desktop/Pictures/Server_1.png</file>
+    </qresource>
+</RCC>

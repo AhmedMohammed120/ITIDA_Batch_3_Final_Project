@@ -27,7 +27,7 @@ void Server::StartServer()
 //client connected to the server
 void Server::incomingConnection(qintptr handle)
 {
-    QOut<<"Client"<<handle<<"Has Connected to the server"<<Qt::endl;
+    QOut<<"Client "<<handle<<" Has Connected to the server"<<Qt::endl;
     ServerHandler* ServerHandler_Ptr = new ServerHandler(handle);
     connect(ServerHandler_Ptr,&QThread::finished,ServerHandler_Ptr,&QThread::deleteLater);
     // Start thread that connected to a specific client

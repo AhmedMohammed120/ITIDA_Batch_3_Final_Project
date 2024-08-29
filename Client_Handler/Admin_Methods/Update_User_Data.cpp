@@ -35,13 +35,14 @@ void Update_User_Data::on_Back_clicked()
 void Update_User_Data::on_Search_clicked()
 {
     QString Format = "Update_User_Data,";
-    Format+= ui->Account_Number_LE->text();
+    Format+= ui->Account_Number_LE_3->text();
     Client_Ptr->SendDataToServer(Format);
 }
 
 void Update_User_Data::Write_To_LW(QString Data)
 {
-    ui->Test_LW->clear();
+   // ui->Test_LW->clear();
+    ui->Test_LE->clear();
     QStringList List = Data.split(',');
     if(List[1]!="Invalid Account Number")
     {
@@ -51,11 +52,12 @@ void Update_User_Data::Write_To_LW(QString Data)
     ui->Age_LE->setText(List[5]);
     ui->Account_Type_LE->setText(List[6]);
     ui->Balance_LE->setText(List[7]);
-    ui->Test_LW->addItem("Valid Account");
+    //ui->Test_LW->addItem("Valid Account");
+    ui->Test_LE->setText("Valid Account");
     }
     else
     {
-        ui->Test_LW->addItem(List[1]);
+        ui->Test_LE->setText(List[1]);
     }
 }
 
@@ -63,7 +65,7 @@ void Update_User_Data::Write_To_LW(QString Data)
 void Update_User_Data::on_Update_User_Data_PB_clicked()
 {
     QString Format = "Update_User_Data_2,";
-    Format+= ui->Account_Number_LE->text() + ',';
+    Format+= ui->Account_Number_LE_3->text() + ',';
     Format+= ui->Email_LE->text() + ',';
     Format+= ui->PW_LE->text()+ ',';
     Format+= ui->Name_LE->text()+ ',';
@@ -75,8 +77,16 @@ void Update_User_Data::on_Update_User_Data_PB_clicked()
 
 void Update_User_Data::Write_To_LW_2(QString Data)
 {
-    ui->Test_LW->clear();
+   // ui->Test_LW->clear();
+    ui->Test_LE->clear();
     QStringList List = Data.split(',');
-    ui->Test_LW->addItem(List[1]);
+    //ui->Test_LW->addItem(List[1]);
+    ui->Test_LE->setText(List[1]);
+}
+
+
+void Update_User_Data::on_Update_User_Data_PB_2_clicked()
+{
+
 }
 

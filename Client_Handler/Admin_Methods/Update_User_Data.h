@@ -27,6 +27,8 @@ private slots:
 
     void Write_To_LW_2(QString Data);
 
+    void on_Update_User_Data_PB_2_clicked();
+
 private:
     Ui::Update_User_Data *ui;
     Signals_Handler* Signals_Handler_Ptr;

@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    Client_Object.ConnectToDevice("192.168.8.7",12345);
+    Client_Object.ConnectToDevice("192.168.2.229",12345);
     Signals_Handler_Ptr = new Signals_Handler();
 
     qDebug()<<"Init Signal Handler Pointer"<<Qt::endl;
@@ -23,6 +23,7 @@ MainWindow::MainWindow(QWidget *parent)
     User_Ptr = User;
     Client_Ptr = &Client_Object;
     ui->Login_LE->setReadOnly(true);
+
 
 }
 
@@ -60,6 +61,7 @@ void MainWindow::Sign_In_Handle_Slot(QString Data)
 void MainWindow::Clear_PW()
 {
     ui->PW_LE->clear();
+    ui->Login_LE->clear();
 }
 
 void MainWindow::Send_Data_To_Server(QString Data)
