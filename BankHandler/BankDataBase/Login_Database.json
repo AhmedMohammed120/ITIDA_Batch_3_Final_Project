@@ -2,7 +2,7 @@
     {
         "Accounts": [
             {
-                "Email": "ahmed.mohammed13990@gmail.com",
+                "Email": "ahmed@gmail.com",
                 "ID": 535535,
                 "Password": "01127980543"
             },
@@ -20,36 +20,6 @@
                 "Email": "mohanad_mohammed@gmail.com",
                 "ID": 813243,
                 "Password": "123"
-            },
-            {
-                "Email": "",
-                "ID": 576416,
-                "Password": ""
-            },
-            {
-                "Email": "",
-                "ID": 473688,
-                "Password": ""
-            },
-            {
-                "Email": "",
-                "ID": 827517,
-                "Password": ""
-            },
-            {
-                "Email": "",
-                "ID": 623543,
-                "Password": ""
-            },
-            {
-                "Email": "",
-                "ID": 264890,
-                "Password": ""
-            },
-            {
-                "Email": "",
-                "ID": 153807,
-                "Password": ""
             }
         ],
         "Type": "User"
